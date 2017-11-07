@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stockage</title>
+	<meta charset="utf-8">
+	<link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/animations.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+	<style>
+	</style>
+</head>
+<body onLoad="afficher()">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<h1>Liste des courses</h1>
+
+				<form>
+					<p><label for="prod">Produits : </label><br>
+					<input  type="text" id="prod" size="20" placeholder="produits" ></p>
+					<p><label for="q">Quantités : </label><br>
+					<input  type="text" id="q" size="20" placeholder="quantité"></p>
+
+					<p>
+					<input type="button" class="btn btn-default" value="ajouter" onclick="ajouter()">
+					<input type="button" class="btn btn-default" value="modifier" onclick="modifier()">
+					<input type="button" class="btn btn-default" value="supprimer" onclick="supprimer()">
+					</p>
+				</form>
+				
+				<table align="center" id="paires">
+
+
+				</table>
+				<input type="button" class="btn btn-primary" value="clear" onclick="doClear()">
+			</div>
+		</div>
+	</div>
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+   	<script src="js/local.js"></script>
+</body>
+</html>

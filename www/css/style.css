@@ -1,0 +1,42 @@
+.text-color{
+	color: #1caa98 !important;
+}
+
+h1 {
+	color : #337ab7;
+}
+
+.btn-default{
+	background-color: darkgrey;
+	color: white;
+	font-weight: bold;
+}
+/*
+.btn-default:hover{
+	background-color: darkcyan;
+	color: white;
+	font-weight: bold;
+}
+*/
+
+
+.col-xs-12 {
+	text-align: center;
+}
+
+table{
+	margin-top : 15px;
+	border-collapse: collapse;
+	margin-bottom: 8px;
+}
+
+td{
+	padding: 15px;
+	border : 1px black solid;
+}
+
+.first {
+	background-color: lightblue;
+}
+
+
